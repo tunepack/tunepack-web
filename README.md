@@ -1,6 +1,6 @@
 # Tunepack - Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0c2e2cad-e121-4dbf-b34d-4b8d779614a5/deploy-status)](https://app.netlify.com/sites/tunepack/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ffb3103a-6844-40d0-a46f-46acf5c2e9fd/deploy-status)](https://app.netlify.com/sites/tunepack/deploys)
 
 ## Getting started
 Install npm dependencies and correctly configure your `.env` file
