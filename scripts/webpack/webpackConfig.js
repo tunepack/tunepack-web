@@ -1,7 +1,6 @@
 require('dotenv').config()
 
 const path = require('path')
-const url = require('url')
 const webpack = require('webpack')
 const serveStatic = require('serve-static')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
@@ -231,11 +230,7 @@ const webpackConfig = {
 }
 
 if (env.isDev) {
-  const parsedUrl = new url.URL(process.env.URL)
-
   webpackConfig.devServer = {
-    host: parsedUrl.hostname,
-    port: parsedUrl.port,
     historyApiFallback: true,
     compress: true,
     hot: true,
