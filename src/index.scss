@@ -1,0 +1,26 @@
+@import 'base.scss';
+
+:global {
+  @import '~sanitize.css/sanitize';
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility !important;
+    overflow-y: scroll;
+    font-size: 14px;
+    font-family: $font-primary;
+    color: $color-text;
+    line-height: 1.6;
+    background-color: $color-body-bg;
+  }
+
+  // Remove ugly chrome yellow autofill background
+  input:-webkit-autofill,
+  textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+  }
+
+  strong {
+    font-weight: 500;
+  }
+}

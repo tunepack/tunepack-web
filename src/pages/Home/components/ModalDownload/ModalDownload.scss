@@ -1,0 +1,37 @@
+@import 'base.scss';
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include desktop-only () {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-weight: 500;
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+  }
+}
+
+.warning {
+  max-width: 700px;
+}
+
+.btnDownload {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.agree {
+  margin-top: 3rem;
+}

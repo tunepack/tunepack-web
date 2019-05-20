@@ -1,0 +1,16 @@
+@import 'base.scss';
+
+.component {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20%;
+  max-width: 540px;
+}
+
+.footer {
+  margin-top: 2em;
+}

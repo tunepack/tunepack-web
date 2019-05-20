@@ -1,0 +1,22 @@
+@import 'base.scss';
+
+.component {
+  transition: opacity 400ms, transform 300ms;
+  opacity: 0;
+  transform: scale(0.9);
+
+  &--exited {
+    display: none;
+  }
+
+  &--entering {
+    display: block;
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  &--entered {
+    opacity: 1;
+    transform: none;
+  }
+}

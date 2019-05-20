@@ -1,0 +1,20 @@
+@import 'base.scss';
+
+.component {
+  border-radius: .2rem;
+  background: none transparent;
+  border: 1px solid $color-border;
+  color: $color-text;
+  font-size: 16px;
+  font-family: inherit;
+  -webkit-appearance: none;
+}
+
+.primary {
+  background-color: $color-primary;
+  color: white;
+
+  &:hover {
+    background-color: $color-primary-darker;
+  }
+}

@@ -1,0 +1,36 @@
+@import 'base.scss';
+
+.component {
+  margin-top: 2em;
+
+  background-color: $color-text;
+  border-radius: 5px;
+  height: 48px;
+  line-height: 48px;
+  color: white;
+  box-shadow: none;
+  border: 0;
+  padding: 0 1rem;
+  cursor: pointer;
+  outline: 0;
+  font-size: 14px;
+  transition: box-shadow 120ms ease, opacity 200ms ease;
+
+  &:focus {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, .2);
+  }
+
+  &.isDisabled {
+    cursor: not-allowed;
+    opacity: .1;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 1rem;
+}

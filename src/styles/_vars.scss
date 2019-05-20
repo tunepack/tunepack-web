@@ -1,0 +1,85 @@
+$color-border: lighten(white, 5%);
+$color-text: #333;
+
+$header-height: 4rem;
+
+// palette
+$color-blue: #34ace0;
+$color-blue-darker: #227093;
+$color-red: #ff5252;
+$color-green: #2ABBAA;
+$color-yellow: #FFDB29;
+$color-orange: #e67e22;
+$color-purple: #706fd3;
+$color-purple-darker: #474787;
+
+$color-success: #2ecc71;
+$color-error: #E74C3C;
+
+// app colors
+$color-text: lighten(black, 1%);
+$color-border: #ededed;
+$color-placeholder: #9d9d9d;
+$color-body-bg: #fdfdfd;
+
+// colors, social
+$color-facebook: #3b5998;
+$color-facebook-hover: darken($color-facebook, 5%);
+$color-google: #ea4335;
+
+// order colors
+$color-primary: $color-blue;
+$color-primary-light-bg: lighten($color-primary, 47%);
+$color-primary-red: $color-red;
+$color-secondary: $color-green;
+
+$color-primary: $color-blue;
+$color-primary-darker: $color-blue-darker;
+
+// grayscale
+$color-pure-black: #000;
+$color-darkest-black: #101010;
+$color-light-bg: #F9F9F9;
+$color-subtext: #BDBDBD;
+
+// components
+$header-height: 56px;
+$view-max-width: 1110px;
+$small-view-max-width: 720px;
+$auth-view-max-width: 370px;
+$mobile-side-padding: 10px;
+$settings-sidebar-width: 280px;
+$profile-header-height: 90px;
+$auth-header-height: 100px;
+$bottom-space: 2em;
+$footer-bar-height: 68px;
+
+// z-indexes
+$z-header: 100;
+$z-menu: 90;
+$z-overlay: 80;
+
+// fonts
+$font-size: 14px;
+$font-primary: 'Roboto', sans-serif;
+
+// include-media breakpoints
+$breakpoints: (
+  phone: 320px,
+  tablet: 768px,
+  desktop: 1024px,
+  medium: 768px,
+  small: 500px
+);
+
+$subheader-height-mobile: 55px;
+$subheader-height-desktop: 70px;
+
+// spaces
+$space-xs: 2px;
+$space-s: 5px;
+$space-m: 10px;
+$space-l: 15px;
+$space-xl: 20px;
+$space-xxl: 30px;
+$space-xxxl: 60px;
