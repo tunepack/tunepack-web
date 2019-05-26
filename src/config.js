@@ -1,6 +1,6 @@
 export const GA_TRACKING_ID = process.env.GA_TRACKING_ID
 
-const RELEASE_TAG = '1.0.3'
+const RELEASE_TAG = '1.0.4'
 
 export const DOWNLOAD_LINKS = {
   mac: `https://github.com/tunepack/tunepack-desktop/releases/download/v${RELEASE_TAG}/Tunepack-${RELEASE_TAG}.dmg`,
