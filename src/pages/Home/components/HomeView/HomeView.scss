@@ -16,6 +16,14 @@
   pointer-events: none;
 }
 
+.github {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 40px;
+  z-index: 1;
+}
+
 .header {
   position: relative;
   width: 100vw;
@@ -53,6 +61,7 @@
 
 .title {
   font-size: 21px;
+  max-width: 620px;
 }
 
 .subtitle {

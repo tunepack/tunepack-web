@@ -5,6 +5,8 @@ import BackgroundWave from '../BackgroundWave/BackgroundWave'
 import DownloadButton from '../DownloadButton/DownloadButton'
 import { useModal } from 'react-modal-hook'
 import ModalDownload from '../ModalDownload/ModalDownload'
+import Screenshots from '../Screenshots/Screenshots'
+import Button from '../../../../components/Button/Button'
 
 const HomeView = () => {
   const [showModal, hideModal] = useModal(({
@@ -29,6 +31,15 @@ const HomeView = () => {
         <div className={styles.headerBackground}>
           <BackgroundWave />
         </div>
+        <div className={styles.github}>
+          <a
+            target='_blank'
+            href='https://github.com/tunepack/tunepack-desktop'>
+            <Button variant='minimal'>
+              View on Github
+            </Button>
+          </a>
+        </div>
         <div className={styles.headerContent}>
           <div className={styles.logo}>
             <Logo />
@@ -37,10 +48,10 @@ const HomeView = () => {
             Tunepack
           </h1>
           <h2 className={styles.title}>
-            <strong>Tunepack</strong> is a tool for finding and downloading high quality audio files
+            <strong>Tunepack</strong> is a <strong>free</strong> and <strong>open source</strong> desktop app for finding and downloading high quality audio files
           </h2>
           <h3 className={styles.subtitle}>
-            It can also burn cds or transfer to USB disks
+            It can also burn cds or transfer to USB disks (soon)
             <br />
             It's the perfect tool for DJs or other music professionals
           </h3>
@@ -49,6 +60,9 @@ const HomeView = () => {
               onClick={handleDownloadButtonClick} />
           </div>
         </div>
+      </div>
+      <div className={styles.content}>
+        <Screenshots />
       </div>
     </div>
   )
