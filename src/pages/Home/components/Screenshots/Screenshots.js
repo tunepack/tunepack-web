@@ -15,7 +15,7 @@ const images = [{
 }, {
   src: Settings,
   alt: 'settings',
-  description: 'Fine tune searching settings'
+  description: 'Fine tune search settings'
 }]
 
 const Screenshots = () => {
