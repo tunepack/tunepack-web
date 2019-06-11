@@ -51,7 +51,7 @@ const HomeView = () => {
             <strong>Tunepack</strong> is a <strong>free</strong> and <strong>open source</strong> desktop app for finding and downloading high quality audio files
           </h2>
           <h3 className={styles.subtitle}>
-            It can also burn cds or transfer to USB disks (soon)
+            It can also burn cds or transfer to USB disks
             <br />
             It's the perfect tool for DJs or other music professionals
           </h3>
